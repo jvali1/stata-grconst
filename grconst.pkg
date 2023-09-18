@@ -1,0 +1,13 @@
+v 3
+
+d grconst: check whether a numeric variable is constant within specified groups and fill up missing observations.
+d
+d Authors:
+d Jean-Victor Alipour. LMU Munich
+d
+d Requires: Stata version 16.0
+d
+d Distribution-Date: 20230918
+d
+f grconst.ado
+f grconst.sthlp
