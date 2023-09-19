@@ -8,9 +8,7 @@ To check whether values of `land_area` are constant within `country`, type:
 ```stata
 grconst land_area, by(country)
 ```
-This will generate an error because countries A and B have conflicting values of `land_area`:
-
-*<font color="red">land_area is NOT constant within by-groups. There are 2 contradictions within 3 by-groups.</font>*
+This will generate an error because countries A and B have conflicting values of `land_area`.
 You can additionally flag these groups by adding the option `flag`.
 
 To fill missing values with non-missing values add the option `fill`. This only works if the non-missing values are not conflicting, otherwise you get an error. Add the option `gen` if you want a new variable generated instead of the existing variable modified.
