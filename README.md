@@ -9,6 +9,7 @@ To check whether values of `land_area` are constant within `country`, type:
 grconst land_area, by(country)
 ```
 This will generate an error because countries A and B have conflicting values of `land_area`:
+
 *<font color="red">land_area is NOT constant within by-groups. There are 2 contradictions within 3 by-groups.</font>*
 You can additionally flag these groups by adding the option `flag`.
 
