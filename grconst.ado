@@ -1,7 +1,7 @@
 *! version 1.0 Jean-Victor Alipour, 09/2023
 
 program define grconst	
-	version 1.0
+	version 17
 
    syntax varlist(num), BY(varlist) [fill gen flag]
    	
