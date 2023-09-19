@@ -3,7 +3,7 @@
 program define grconst	
 	version 17
 
-   syntax varlist(num), BY(varlist) [fill gen flag]
+   syntax varlist(min=1 max=1 num), BY(varlist) [fill gen flag]
    	
 	
    /*
